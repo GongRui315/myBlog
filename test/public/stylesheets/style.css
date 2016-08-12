@@ -1,0 +1,28 @@
+/*style.css 一些通常的全局设定*/
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: '微软雅黑';
+}
+a,a:hover,a:focus{
+    cursor:pointer;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.clear{
+    zoom:1;
+}/*作用于浮动元素的父级*/
+.clear:after{
+    clear:both;
+    content:'.';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}

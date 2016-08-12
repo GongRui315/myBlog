@@ -1,0 +1,76 @@
+/*index.css 首页总体框架*/
+.main-title{
+    height:150px;
+    width:1000px;
+    margin:0 auto;
+    padding-top: 200px;
+}
+.main-container{
+    width:1000px;
+    margin:0 auto;
+}
+.main-left{
+    width:700px;
+    border-right:1px solid #999;
+}
+.main-right{
+    width:290px;
+}
+.footer{
+    width:1000px;
+    margin:0 auto;
+}
+.footer a{
+    font-size: 10px;
+    color:#666;
+}
+.main-title-big{
+    font-size: 36px;
+    font-weight: bold;
+}
+.main-title a{
+    font-size: 12px;
+    color:#666;
+}
+.one-title{
+    width:600px;
+    height:50px;
+    line-height: 50px;
+    padding:0 50px 0 0;
+    border-bottom:1px solid #666;
+    font-size:24px;
+    overflow:hidden;
+}
+.one-title a{
+    color:#666;
+    font-size: 12px;
+}
+.one-content{
+    width:700px;
+    max-height:400px;
+    padding:20px 0 50px 0;
+    font-size:12px;
+    color:#666;
+    overflow:auto;
+}
+.admin-intro{
+    width:200px;
+    margin:20px;
+    height:400px;
+}
+.admin-intro p{
+    padding:10px;
+    font-size: 14px;
+    color:#666;
+}
+.one-comment{
+    margin-top:20px;
+    font-size: 12px;
+    color:#666;
+}
+.comment-list{
+    margin:20px 0;
+}
+.comment-list-one{
+    margin:10px 0;
+}
